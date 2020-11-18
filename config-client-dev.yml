@@ -1,0 +1,7 @@
+spring:
+  profiles: dev
+
+cloud:
+  version: Camden SR3
+
+instance: ${spring.application.name}
